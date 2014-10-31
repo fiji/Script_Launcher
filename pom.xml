@@ -13,11 +13,11 @@
 	</parent>
 
 	<groupId>sc.fiji</groupId>
-	<artifactId>Process_Pixels</artifactId>
-	<version>1.0.0</version>
+	<artifactId>Script_Launcher</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
 
-	<name>plugins/Process_Pixels.jar</name>
-	<description>A Maven project implementing an ImageJ 1.x plugin</description>
+	<name>Generic script launcher based on SciJava</name>
+	<description>This ImageJ 1.x plugin is intended to allow running scripts from inside .jar files</description>
 
 	<dependencies>
 		<dependency>
