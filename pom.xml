@@ -13,7 +13,7 @@
 	</parent>
 
 	<artifactId>Script_Launcher</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>0.1.0-SNAPSHOT</version>
 
 	<name>Generic script launcher based on SciJava</name>
 	<description>This ImageJ 1.x plugin is intended to allow running scripts from inside .jar files</description>
