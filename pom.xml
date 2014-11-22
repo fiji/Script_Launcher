@@ -6,9 +6,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>net.imagej</groupId>
-		<artifactId>pom-imagej</artifactId>
-		<version>3.1</version>
+		<groupId>sc.fiji</groupId>
+		<artifactId>pom-fiji</artifactId>
+		<version>6.1.0</version>
 		<relativePath />
 	</parent>
 
@@ -97,5 +97,13 @@
 		<tag>HEAD</tag>
 		<url>https://github.com/imagej/minimal-ij1-plugin</url>
 	</scm>
+
+	<repositories>
+		<!-- NB: for project parent -->
+		<repository>
+			<id>imagej.public</id>
+			<url>http://maven.imagej.net/content/groups/public</url>
+		</repository>
+	</repositories>
 
 </project>
