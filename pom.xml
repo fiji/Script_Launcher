@@ -15,7 +15,7 @@
 	<artifactId>Script_Launcher</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 
-	<name>Generic script launcher based on SciJava</name>
+	<name>plugins/Script_Launcher.jar</name>
 	<description>This ImageJ 1.x plugin is intended to allow running scripts from inside .jar files</description>
 
 	<developers>
