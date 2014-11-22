@@ -42,6 +42,10 @@
 		<url>https://github.com/imagej/minimal-ij1-plugin</url>
 	</scm>
 
+	<properties>
+		<main-class>LauncherTestDrive</main-class>
+	</properties>
+
 	<repositories>
 		<!-- NB: for project parent -->
 		<repository>
@@ -71,24 +75,5 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>exec-maven-plugin</artifactId>
-				<executions>
-					<execution>
-						<goals>
-							<goal>java</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<mainClass>Process_Pixels</mainClass>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
 
 </project>
