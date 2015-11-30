@@ -35,10 +35,10 @@
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/imagej/minimal-ij1-plugin</connection>
-		<developerConnection>scm:git:git@github.com:imagej/minimal-ij1-plugin</developerConnection>
+		<connection>scm:git:git://github.com/fiji/Script_Launcher</connection>
+		<developerConnection>scm:git:git@github.com:fiji/Script_Launcher</developerConnection>
 		<tag>HEAD</tag>
-		<url>https://github.com/imagej/minimal-ij1-plugin</url>
+		<url>https://github.com/fiji/Script_Launcher</url>
 	</scm>
 
 	<properties>
